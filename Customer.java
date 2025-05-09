@@ -1,29 +1,28 @@
 package test;
+
+import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
+
 public class Customer {
-	String name;
-	int table_num;
-	Scanner sc = new Scanner(System.in);
-	
-	Customer(String name, int table_num){
-		this.name = name;
-		this.table_num = table_num;
-	}
-	
-	Customer(){
-		
-	}
-	
-	Random rand = new Random();
-	
-	public void table() {
-		System.out.print("Enter your name: ");
-		name = sc.nextLine();
-		table_num = 1 + rand.nextInt(15);
-		System.out.println("Hello " + name + "! You are assigned to table number: " + table_num);
-	    System.out.println();
-	    System.out.println();
-	}
-	
+    String name;
+    int table_num;
+
+    public Customer(String name) {
+        this.name = name;
+    }
+
+    public void assignTable(ArrayList<Integer> assignedTables) {
+        Random rand = new Random();
+        int newTable;
+        do {
+            newTable = 1 + rand.nextInt(15);  // Table numbers from 1 to 15
+        } while (assignedTables.contains(newTable));
+        this.table_num = newTable;
+        assignedTables.add(newTable);
+        System.out.println("Hello " + name + "! You are assigned table number: " + table_num);
+    }
+
+    public int getTableNum() {
+        return table_num;
+    }
 }
