@@ -11,6 +11,8 @@ This Java-based Restaurant Management System helps streamline the ordering and p
 - Simple coupon system offering discount percentages.
 
 
+
+
 - **Menu Categories**: 
   - Veg & Non-Veg Burgers
   - Fries
