@@ -4,9 +4,13 @@ This Java-based Restaurant Management System helps streamline the ordering and p
 
 ## Features
 -Manage menu items in different categories (Burgers, Fries, Sides, Drinks, Desserts).
+
 -Customers can place orders, view their cart, and apply discount coupons.
+
 -Support for various payment methods: Cash, Card, and Online payments.
+
 -Generates itemized receipts for orders and payments.
+
 -Simple coupon system offering discount percentages.
 
 - **Menu Categories**: 
