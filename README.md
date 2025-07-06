@@ -62,33 +62,33 @@ This Java-based Restaurant Management System helps streamline the ordering and p
 
 ---
 
-## 🖼️ GUI Screenshots
+##  GUI Screenshots
 
 Below are screenshots showcasing different parts of the Restaurant Management System GUI:
 
 ---
 
-### 🧾 Menu Display
+###  Menu Display
 <img src="screenshots/1.png" width="500"/>
 
 ---
 
-### 🛒 Order Summary Panel
+###  Order Summary Panel
 <img src="screenshots/2.png" width="500"/>
 
 ---
 
-### 🎟️ Coupon Discount View
+###  Coupon Discount View
 <img src="screenshots/3.png" width="500"/>
 
 ---
 
-### 💳 Payment Selection Panel
+###  Payment Selection Panel
 <img src="screenshots/4.png" width="500"/>
 
 ---
 
-### 🧾 Final Bill / Receipt Display
+###  Final Bill / Receipt Display
 <img src="screenshots/5.png" width="500"/>
 
 
