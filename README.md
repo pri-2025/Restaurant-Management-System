@@ -62,5 +62,34 @@ This Java-based Restaurant Management System helps streamline the ordering and p
 
 ---
 
-**Note**: This project is a simulation and can be further improved with a database connection and a GUI for a better user experience.
+## 🖼️ GUI Screenshots
+
+Below are screenshots showcasing different parts of the Restaurant Management System GUI:
+
+---
+
+### 🧾 Menu Display
+<img src="screenshots/1.png" width="500"/>
+
+---
+
+### 🛒 Order Summary Panel
+<img src="screenshots/2.png" width="500"/>
+
+---
+
+### 🎟️ Coupon Discount View
+<img src="screenshots/3.png" width="500"/>
+
+---
+
+### 💳 Payment Selection Panel
+<img src="screenshots/4.png" width="500"/>
+
+---
+
+### 🧾 Final Bill / Receipt Display
+<img src="screenshots/5.png" width="500"/>
+
+
 
